@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace LoginShit
+namespace ManagementSample
 {
     internal static class Program
     {
@@ -16,7 +16,7 @@ namespace LoginShit
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmLogin());
+            Application.Run(new frmMenu());
         }
     }
 }
