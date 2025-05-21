@@ -28,7 +28,7 @@ namespace LoginShit
             cmd.Parameters.AddWithValue("@Lname", txtLname.Text);
             cmd.Parameters.AddWithValue("@gender", cmbGender.SelectedItem.ToString());
             cmd.Parameters.AddWithValue("@email", txtEmail.Text);
-            cmd.Parameters.AddWithValue("phone", txtPhone.Text);
+            cmd.Parameters.AddWithValue("@phone", txtPhone.Text);
             cmd.Parameters.AddWithValue("@username", txtUsername.Text);
             cmd.Parameters.AddWithValue("@password", txtPassword.Text);
             cmd.ExecuteNonQuery();
