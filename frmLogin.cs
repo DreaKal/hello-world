@@ -10,7 +10,7 @@ using System.Windows.Forms;
 using System.Data.SqlClient;
 
 
-namespace LoginShit
+namespace LoginForm
 {
     public partial class frmLogin : Form
     {
